@@ -16,7 +16,7 @@ export default class ProductCard extends Component {
                 </a>
               </div>
               <div className="card-body">
-                <h5 className="card-title">Fresh Apple</h5>
+                <h5 className="card-title">Savita Gore</h5>
                 <h6 className="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
                 <p className="card-text">
                   Fresh Apple Fresh Apple Fresh Apple Apple Fresh Apple Apple Fresh Apple... </p>
