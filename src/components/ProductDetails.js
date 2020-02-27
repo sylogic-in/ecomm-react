@@ -13,7 +13,7 @@ export default class ProductDetails extends Component {
         <div className="col-2 filter-margin">
           <FilterProduct/>
         </div>
-        <div class="col-10 product-margin row">
+        <div className="col-10 product-margin row">
             {rows}
         </div>
       </div>

@@ -37,7 +37,7 @@ export default class Navbar extends Component {
         <header>
         <nav className="navbar navbar-expand-lg nav-custom">
         <div className="navbar-header d-flex col">
-            <a className="navbar-brand" href="/#"><img className="Logo" src={logo} alt="Logo" /></a>
+            <a className="navbar-brand" href="/#"><img className="" src={logo} alt="Logo" /></a>
         </div>
         <div className="col-md-5">
         <div className="input-group"> 

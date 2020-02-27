@@ -4,23 +4,23 @@ export default class FilterProduct extends Component {
   render() {
     return (
       <div className="card card-border">
-        <article class="filter-group">
-          <header class="card-header">
-            <h5 class="title">Categories
+        <article className="filter-group">
+          <header className="card-header">
+            <h5 className="title">Categories
             </h5>
           </header>
-          <div class="card-body">
-            <form class="mb-3">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search"/>
-                <div class="input-group-append">
-                  <button class="btn btn-primary" type="button">
-                    <i class="fa fa-search"></i>
+          <div className="card-body">
+            <form className="mb-3">
+              <div className="input-group">
+                <input type="text" className="form-control" placeholder="Search"/>
+                <div className="input-group-append">
+                  <button className="btn btn-primary" type="button">
+                    <i className="fa fa-search"></i>
                   </button>
                 </div>
               </div>
             </form>
-            <ul class="list-menu">
+            <ul className="list-menu">
               <li>
                 Electronics
               </li>
@@ -36,85 +36,85 @@ export default class FilterProduct extends Component {
             </ul>
           </div>
         </article>
-        <article class="filter-group">
-          <header class="card-header">
-            <h5 class="title">Price
+        <article className="filter-group">
+          <header className="card-header">
+            <h5 className="title">Price
             </h5>
           </header>
-          <div class="filter-content collapse show" id="collapse_aside2">
-            <div class="card-body">
-              <input type="range" class="custom-range" min="0" max="100" name=""/>
-              <div class="form-row">
-                <div class="form-group col-md-6">
+          <div className="filter-content collapse show" id="collapse_aside2">
+            <div className="card-body">
+              <input type="range" className="custom-range" min="0" max="100" name=""/>
+              <div className="form-row">
+                <div className="form-group col-md-6">
                   <label>Min</label>
-                  <input class="form-control" placeholder="$0" type="number"/>
+                  <input className="form-control" placeholder="$0" type="number"/>
                 </div>
-                <div class="form-group text-right col-md-6">
+                <div className="form-group text-right col-md-6">
                   <label>Max</label>
-                  <input class="form-control" placeholder="$1,0000" type="number"/>
+                  <input className="form-control" placeholder="$1,0000" type="number"/>
                 </div>
               </div>
-              <button class="btn btn-block btn-primary">Apply</button>
+              <button className="btn btn-block btn-primary">Apply</button>
             </div>
           </div>
         </article>
-        <article class="filter-group">
-          <header class="card-header">
-            <h5 class="title">Size</h5>
+        <article className="filter-group">
+          <header className="card-header">
+            <h5 className="title">Size</h5>
           </header>
-          <div class="filter-content collapse show" id="collapse_aside3">
-            <div class="card-body">
-              <label class="checkbox-btn">
+          <div className="filter-content collapse show" id="collapse_aside3">
+            <div className="card-body">
+              <label className="checkbox-btn">
                 <input type="checkbox"/>
-                <span class="btn btn-light">
+                <span className="btn btn-light">
                   XS
                 </span>
               </label>
-              <label class="checkbox-btn">
+              <label className="checkbox-btn">
                 <input type="checkbox"/>
-                <span class="btn btn-light">
+                <span className="btn btn-light">
                   SM
                 </span>
               </label>
-              <label class="checkbox-btn">
+              <label className="checkbox-btn">
                 <input type="checkbox"/>
-                <span class="btn btn-light">
+                <span className="btn btn-light">
                   LG
                 </span>
               </label>
-              <label class="checkbox-btn">
+              <label className="checkbox-btn">
                 <input type="checkbox"/>
-                <span class="btn btn-light">
+                <span className="btn btn-light">
                   XXL
                 </span>
               </label>
             </div>
           </div>
         </article>
-        <article class="filter-group">
-          <header class="card-header">
-            <h5 class="title">Rating
+        <article className="filter-group">
+          <header className="card-header">
+            <h5 className="title">Rating
             </h5>
           </header>
-          <div class="filter-content collapse show" id="collapse_aside4">
-            <div class="card-body">
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" checked="" class="custom-control-input"/>
-                <div class="custom-control-label">Best
+          <div className="filter-content collapse show" id="collapse_aside4">
+            <div className="card-body">
+              <label className="custom-control custom-checkbox">
+                <input type="checkbox"   className="custom-control-input"/>
+                <div className="custom-control-label">Best
                 </div>
               </label>
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" checked="" class="custom-control-input"/>
-                <div class="custom-control-label">Good
+              <label className="custom-control custom-checkbox">
+                <input type="checkbox"  className="custom-control-input"/>
+                <div className="custom-control-label">Good
                 </div>
               </label>
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" checked="" class="custom-control-input"/>
-                <div class="custom-control-label">Normal</div>
+              <label className="custom-control custom-checkbox">
+                <input type="checkbox"  className="custom-control-input"/>
+                <div className="custom-control-label">Normal</div>
               </label>
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" checked="" class="custom-control-input"/>
-                <div class="custom-control-label">Not good</div>
+              <label className="custom-control custom-checkbox">
+                <input type="checkbox"  className="custom-control-input"/>
+                <div className="custom-control-label">Not good</div>
               </label>
             </div>
           </div>
